@@ -1,0 +1,18 @@
+<div class="container text-center">
+  <div class="row">
+    <div class="col" *ngFor="let product of products">
+      <div class="card">
+        <img
+          src="{{ product.image }}"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ product.name }}</h5>
+          <p class="card-text">{{ product.description }}</p>
+          <a [routerLink]="['/products/detail', product.id]" class="btn btn-primary">Detail</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

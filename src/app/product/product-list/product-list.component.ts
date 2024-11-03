@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
+import { Product, products } from '../products';
+
 @Component({
   selector: 'app-product-list',
   standalone: true,
@@ -10,7 +12,5 @@ import { RouterModule } from '@angular/router';
   styleUrl: './product-list.component.scss'
 })
 export class ProductListComponent {
-
-  products:any = [1, 2, 3, 4]
-
+  products: Product[] = [...products];
 }
