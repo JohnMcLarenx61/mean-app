@@ -5,10 +5,10 @@ class FakeDb {
     constructor(){
         this.products = [
                 {
-                  image: 'path/to/image1.jpg',
-                  name: 'Product 1',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
+                  name: 'iPhone',
                   price: 1000,
-                  description: 'Product 1 description',
+                  description: 'みんなが待っていたiPhone、ついに登場',
                   heading1: 'Heading 1 for Product 1',
                   heading2: 'Heading 2 for Product 1',
                   heading3: 'Heading 3 for Product 1',
@@ -17,10 +17,10 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 1'
                 },
                 {
-                  image: 'path/to/image2.jpg',
-                  name: 'Product 2',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
+                  name: 'Mac Book Air',
                   price: 2000,
-                  description: 'Product 2 description',
+                  description: '世界最薄のノートブック',
                   heading1: 'Heading 1 for Product 2',
                   heading2: 'Heading 2 for Product 2',
                   heading3: 'Heading 3 for Product 2',
@@ -29,10 +29,10 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 2'
                 },
                 {
-                  image: 'path/to/image3.jpg',
-                  name: 'Product 3',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
+                  name: 'iPad',
                   price: 3000,
-                  description: 'Product 3 description',
+                  description: '革命的で魔法のようなデバイス。しかも、信じられない価格で。',
                   heading1: 'Heading 1 for Product 3',
                   heading2: 'Heading 2 for Product 3',
                   heading3: 'Heading 3 for Product 3',
@@ -41,10 +41,10 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 3'
                 },
                 {
-                  image: 'path/to/image4.jpg',
-                  name: 'Product 4',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
+                  name: 'iPod',
                   price: 4000,
-                  description: 'Product 4 description',
+                  description: '1000曲をポケットに。',
                   heading1: 'Heading 1 for Product 4',
                   heading2: 'Heading 2 for Product 4',
                   heading3: 'Heading 3 for Product 4',
@@ -53,7 +53,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 4'
                 },
                 {
-                  image: 'path/to/image5.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 5',
                   price: 5000,
                   description: 'Product 5 description',
@@ -65,7 +65,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 5'
                 },
                 {
-                  image: 'path/to/image6.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 6',
                   price: 6000,
                   description: 'Product 6 description',
@@ -77,7 +77,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 6'
                 },
                 {
-                  image: 'path/to/image7.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 7',
                   price: 7000,
                   description: 'Product 7 description',
@@ -89,7 +89,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 7'
                 },
                 {
-                  image: 'path/to/image8.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 8',
                   price: 8000,
                   description: 'Product 8 description',
@@ -101,7 +101,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 8'
                 },
                 {
-                  image: 'path/to/image9.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 9',
                   price: 9000,
                   description: 'Product 9 description',
@@ -113,7 +113,7 @@ class FakeDb {
                   headingtext3: 'Heading text 3 for Product 9'
                 },
                 {
-                  image: 'path/to/image10.jpg',
+                  image: '../../../assets/img/iPad-10gen-logo-icon.jpg',
                   name: 'Product 10',
                   price: 10000,
                   description: 'Product 10 description',
