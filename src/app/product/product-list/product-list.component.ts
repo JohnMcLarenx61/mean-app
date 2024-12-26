@@ -22,7 +22,21 @@ export class ProductListComponent implements OnInit {
       (data) => {
         this.products = data
       },
-      (err) => {console.error('次のエラーが発生しました ' + err);}
+      (err) => { console.error('次のエラーが発生しました ' + err); }
     )
+  }
+
+ selectTab(event: MouseEvent, tabId: string) {
+    event.preventDefault(); let tabElement = document.querySelector(`#${tabId}`);
+     if (tabElement) {
+      tabElement.classList.add('show', 'active');
+      // siblings() は存在しないので代わりに親要素を探す 
+      const siblingTabs = tabElement.parentElement?.querySelectorAll('.tab-pane'); 
+      siblingTabs?.forEach((sibling) => { 
+        if (sibling !== tabElement) { 
+          sibling.classList.remove('show', 'active'); 
+        } 
+      });
+    }
   }
 }
